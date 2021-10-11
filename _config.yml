@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "skyshine's blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "skyshine"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -102,14 +102,14 @@ analytics:
 # Site Author
 author:
   name             : "skyshine"
-  avatar           : #"/assets/images/jun711.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/test.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "common and confident"
   location         : "Somewhere"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:your.name@email.com"
+      url: "mailto:skyshine_xzy@outlook.com"
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -122,7 +122,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/sky-shine"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -287,6 +287,7 @@ defaults:
       read_time: true
       show_date: true
       toc: true
+      toc_sticky: true
       toc_label: 'Menu'
       toc_icon: 'paperclip'
       comments: false # true
