@@ -2,7 +2,7 @@
 title: "git"
 excerpt: "Post displaying uses of git"
 header:
-  teaser: "assets/images/markup-syntax-highlighting-teaser.jpg"
+  teaser: ""
 tags: 
   - code
   - git
