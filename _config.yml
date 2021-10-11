@@ -285,6 +285,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
+      show_date: true
       toc: true
       toc_label: 'Menu'
       toc_icon: 'paperclip'
