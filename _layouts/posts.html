@@ -25,6 +25,11 @@ layout: archive
         {% include archive-single.html type=entries_layout %}
       {% endfor %}
     </div>
-    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+    <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+    <script>addBackToTop({
+      diameter: 56,
+      backgroundColor: 'rgb(89，89，89)',
+      textColor: '#fff'
+    })</script>
   </section>
 {% endfor %}
